@@ -198,8 +198,7 @@ public class GifEmoticonHelper {
     /**
      * 根据gif表情路径获取GifDrawable对象
      * 注意点:
-     * 1. 返回的GifDrawable默认宽高为0,需要调用{@link Drawable#setBounds(Rect)}方法重新设置
-     * 2. 返回的GifDrawable默认没有刷新回调,需要调用{@link #playGifEmoticon(TextView)}方法播放
+     * 返回的GifDrawable默认没有刷新回调,需要调用{@link #playGifEmoticon(TextView)}方法播放
      *
      * @param emoticonAssetPath 表情的assets/路径,如"emoticon-res/e1.gif"
      * @return 实际的GifDrawable对象, 默认尺寸为30x30dp, 默认情况下是停止播放的
@@ -215,8 +214,7 @@ public class GifEmoticonHelper {
     /**
      * 根据gif表情路径获取GifDrawable对象
      * 注意点:
-     * 1. 返回的GifDrawable默认宽高为0,需要调用{@link Drawable#setBounds(Rect)}方法重新设置
-     * 2. 返回的GifDrawable默认没有刷新回调,需要调用{@link #playGifEmoticon(TextView)}方法播放
+     * 返回的GifDrawable默认没有刷新回调,需要调用{@link #playGifEmoticon(TextView)}方法播放
      *
      * @param emoticonAssetPath 表情的assets/路径,如"emoticon-res/e1.gif"
      * @param emoticonDpSize    表情尺寸,单位为dp
